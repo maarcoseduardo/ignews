@@ -71,6 +71,3 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         res.status(405).end('Method not allowed')
     }
 }
-
-// CRIAR NOVO USUARIO NO STRIPE PARA TESTAR SE NAO PRECISA ATIVAR E DISPONIBILIZAR ENDEREÇO
-// CASO CRIAR WEBHOOK NO STRIPE
